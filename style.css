@@ -742,6 +742,7 @@ body div {
     color: #fff;
     z-index: 1072;
     transition: all 1s;
+    border-radius: 20px;
     animation: glowing2 1500ms infinite;
 }
 
@@ -779,6 +780,7 @@ body div {
 .spin-modal-header {
     padding: 10px 20px;
     background: #ffae15;
+    border-radius: 20px;
     color: #000;
     font-family: "TrajanProRegular";
     text-align: center;
