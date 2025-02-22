@@ -1,0 +1,369 @@
+<!-- https://winner88.space/uyICM7OMiV?banner=21896691... -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>✅ยินดีด้วยคุณได้รางวัลใหญ่</title>
+    <link
+      rel="shortcut icon"
+      href="./asset/5e621fa4d1bed_v.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="https://sogood-developer.github.io/cdn-spin-css/style.css">
+
+
+    <!-- https://winner88.space/new-slot/css/style.css?v=1.2 -->
+
+  </head>
+
+  <body>
+    <canvas id="bg"></canvas>
+    <div class="header text-center">
+      <div class="head-top">หมุนเพื่อลุ้นรับรางวัลแจ็คพอต</div>
+      <div class="text-game">FURTUNE TIGER</div>
+      <div class="grandprize-value text-center">
+        💰💵 ลุ้นรับรางวัลใหญ่ 💵💰 <br />
+        3,038,365 ฿
+      </div>
+    </div>
+    <div class="text-center"></div>
+    <div class="spinner-wrapper">
+      <div class="spinner">
+        <div class="spinner-col spinner-col1">
+          <div class="img"></div>
+        </div>
+        <div class="spinner-col spinner-col2">
+          <div class="img"></div>
+        </div>
+        <div class="spinner-col spinner-col3">
+          <div class="img"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <img
+        class="btn-SPIN1 active"
+        src="https://winner88.space/new-slot/images/btn_SPIN1.png"
+        alt=""
+      />
+    </div>
+    <div class="spin-error text-center">
+      ขออภัยคุณพลาด! คุณมี (<span class="spinremaining">5</span>) หมุนมากขึ้น
+    </div>
+
+    <div class="spin-modal-backdrop"></div>
+    <div class="spin-modal">
+      <div class="spin-modal-header">💸ยินดีด้วย! คุณได้รับสิทธิพิเศษ💸</div>
+      <div class="content">
+        <ul>
+          <li>😍 สามารถกดรับสิทธิ์ของคุณได้ภายใน 24 ชั่วโมง</li>
+          <li>✅ ฝาก 50 รับเพิ่ม 100</li>
+          <li>✅ ฝาก 100 รับเพิ่ม 200</li>
+          <li>✅ ฝาก 200 รับเพิ่ม 400</li>
+          <li>✅ ฝาก 300 รับเพิ่ม 600</li>
+        </ul>
+        <div>
+          📝 ทำตามขั้นนี้<br />1. จับภาพหน้าจอของหน้านี้ <br />2. เพิ่มเราบน
+          LINE และส่งภาพหน้าจอ
+        </div>
+        <a
+          href="https://line.me/R/ti/p/~@461omwae"
+          class="finalButton text-center"
+          >รับรางวัลของฉัน</a
+        >
+      </div>
+    </div>
+
+    <canvas
+      id="firework-canvas"
+      width="1600"
+      height="800"
+      style="
+        display: block;
+        pointer-events: none;
+        position: fixed;
+        z-index: 1;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        opacity: 0.85;
+      "
+    ></canvas>
+    <canvas
+      id="firework-canvas"
+      width="1365"
+      height="969"
+      style="
+        display: block;
+        pointer-events: none;
+        position: fixed;
+        z-index: 1;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        opacity: 0.85;
+      "
+    ></canvas>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <!-- <script src="https://winner88.space/new-slot/js/firework_particles.js?version=2"></script> -->
+    <!-- <script src="https://winner88.space/new-slot/js/jquery-3.7.0.min.js"></script> -->
+    <!-- <script src="https://winner88.space/new-slot/js/main_script.js?version=2"></script> -->
+
+    <!-- main_script -->
+    <script>
+      var spinloop = 2
+      var spinremaining = 3
+
+      $('.btn-spin').click(function () {
+        spinloop++
+        spinremaining--
+        $this = $(this)
+        $this.prop('disabled', true)
+        $this.css('display', 'none')
+        $('.spinremaining').html(spinremaining)
+        $('.spin-error').removeClass('active')
+        $('.spinner-col').addClass('spinned-' + spinloop)
+        $('.spinner-col').css('opacity', '0.80')
+
+        // setTimeout(function () {
+        //     $('.spinner-col1').css('opacity', '1');
+        //     if (spinloop == 1) {}
+        // }, 3000);
+        // setTimeout(function () {
+        //     $('.spinner-col2').css('opacity', '1');
+        //     if (spinloop == 2) {}
+        // }, 4000);
+
+        setTimeout(function () {
+          if (spinloop < 3) {
+            $this.prop('disabled', false)
+            $this.css('display', 'initial')
+            $('.spin-error').addClass('active')
+          }
+          $('.spinner-col3').css('opacity', '1')
+          showMessage(spinloop)
+        }, 5600)
+      })
+
+      $('.btn-SPIN1').click(function () {
+        spinloop++
+        spinremaining--
+        $this = $(this)
+        $this.prop('disabled', true)
+        $('.spinremaining').html(spinremaining)
+        $('.spin-error').removeClass('active')
+        $('.spinner-col').addClass('spinned-' + spinloop)
+        $('.spinner-col').css('opacity', '0.80')
+
+        // setTimeout(function () {
+        //     $('.spinner-col1').css('opacity', '1');
+        //     if (spinloop == 1) {}
+        // }, 3000);
+        // setTimeout(function () {
+        //     $('.spinner-col2').css('opacity', '1');
+        //     if (spinloop == 2) {}
+        // }, 4000);
+
+        setTimeout(function () {
+          if (spinloop < 3) {
+            $this.prop('disabled', false)
+            $this.css('display', 'initial')
+            $('.spin-error').addClass('active')
+          }
+          $('.spinner-col3').css('opacity', '1')
+          showMessage(spinloop)
+        }, 5600)
+      })
+
+      function showMessage(spinloop) {
+        if (spinloop < 3) {
+        }
+        if (spinloop == 3) {
+          $('.spin-modal-backdrop').addClass('open').css('display', 'block')
+          $('body').addClass('modal-open').css('overflow', 'hidden')
+          $('.spin-modal').addClass('open')
+          $('.spin-modal-backdrop').animate(
+            {
+              opacity: 1
+            },
+            1000,
+            function () {}
+          )
+          $('.btn-spin').removeClass('active')
+          $('.btn-SPIN1').removeClass('active')
+        }
+      }
+    </script>
+
+    <!-- firework_particles.js -->
+    <script>
+      /**
+       * Firework particle class
+       */
+      class FireworkParticle {
+        constructor(context, width, height, total) {
+          this.context = context
+          this.width = width
+          this.height = height
+          this.total = total
+          this.done = 0
+          this.x = 0
+          this.xTo = 0
+          this.y = 0
+          this.yTo = 0
+          this.ease = 20
+          this.size = 300
+          ;(this.hue = 0), (this.particles = [])
+          this.reset()
+        }
+
+        between(min, max) {
+          return Math.random() * (max - min + 1) + min
+        }
+
+        complete() {
+          return this.done >= this.total
+        }
+
+        reset() {
+          this.particles = []
+          this.x = this.between(100, this.width - 100)
+          this.xTo = this.between(this.x + 100, this.x - 100)
+          this.y = this.height + 10
+          this.yTo = this.height / 2 - this.between(0, 200)
+          this.ease = this.between(12, 20)
+          this.hue = this.between(100, 360)
+          this.done = 0
+        }
+
+        explode() {
+          this.particles = []
+          this.context.clearRect(0, 0, this.width, this.height) // flash
+
+          for (let i = 0; i < this.total; i++) {
+            this.particles.push({
+              x: this.x,
+              y: this.y,
+              xTo: this.between(this.x - this.size, this.x + this.size),
+              yTo: this.between(this.y - this.size, this.y + this.size),
+              size: this.between(1, 3),
+              ease: this.between(8, 28),
+              hue: this.between(this.hue - 100, this.hue),
+              alpha: 1
+            })
+          }
+        }
+
+        update(width, height) {
+          this.width = width || this.width
+          this.height = height || this.height
+          this.x += (this.xTo - this.x) / this.ease
+          this.y += (this.yTo - this.y) / this.ease
+        }
+
+        drawBomb() {
+          this.context.beginPath()
+          this.context.arc(this.x, this.y, 2, 0, 2 * Math.PI, false)
+          this.context.fillStyle = `hsl( ${this.hue}, 100%, 60% )`
+          this.context.fill()
+        }
+
+        drawParticles() {
+          for (let i = 0; i < this.particles.length; i++) {
+            const p = this.particles[i]
+
+            if (p.alpha >= 0) {
+              this.context.beginPath()
+              this.context.arc(p.x, p.y, p.size, 0, 2 * Math.PI, false)
+              this.context.fillStyle = `hsla( ${p.hue}, 100%, 60%, ${p.alpha} )`
+              this.context.fill()
+
+              p.x += (p.xTo - p.x) / p.ease
+              p.y += (p.yTo - p.y) / p.ease
+              p.alpha -= 0.014
+              continue
+            }
+            this.particles.splice(i, 1)
+            this.done += 1
+          }
+        }
+
+        draw() {
+          if (this.complete()) return
+          if (this.y > this.yTo + 20) {
+            this.drawBomb()
+          } else if (!this.particles.length) {
+            this.explode()
+          } else {
+            this.drawParticles()
+          }
+        }
+      }
+
+      /**
+       * Setup
+       */
+      ;(function () {
+        let width = window.innerWidth
+        let height = window.innerHeight
+        let particles = []
+
+        // particle canvas
+        const canvas = document.createElement('canvas')
+        const context = canvas.getContext('2d')
+        canvas.id = 'firework-canvas'
+        canvas.width = width
+        canvas.height = height
+        canvas.style.display = 'block'
+        canvas.style.pointerEvents = 'none'
+        canvas.style.position = 'fixed'
+        canvas.style.zIndex = '1'
+        canvas.style.left = '0'
+        canvas.style.top = '0'
+        canvas.style.width = '100%'
+        canvas.style.height = '100%'
+        canvas.style.opacity = '.85'
+        document.body.appendChild(canvas)
+
+        // on resize
+        window.addEventListener('resize', e => {
+          width = window.innerWidth
+          height = window.innerHeight
+          canvas.width = width
+          canvas.height = height
+        })
+
+        // add particles slowly over time
+        const create = () => {
+          if (particles.length > 2) return
+          particles.push(new FireworkParticle(context, width, height, 100))
+          setTimeout(create, 600)
+        }
+
+        // animation loop
+        const loop = () => {
+          requestAnimationFrame(loop)
+          context.fillStyle = 'rgba(0,0,0,0.2)'
+          context.fillRect(0, 0, width, height)
+
+          for (let p of particles) {
+            if (p.complete()) p.reset()
+            p.update(width, height)
+            p.draw()
+          }
+        }
+
+        // init
+        create()
+        loop()
+      })()
+    </script>
+  </body>
+</html>
