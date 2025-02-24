@@ -675,7 +675,7 @@ body div {
 
 .spinner-col3 .img {
     transform: translateY(-260px);
-    transition: transform 8s cubic-bezier(0.25, 1, 0.5, 1);
+    transition: transform 6s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .spinner-col1.spinned-1 .img {
