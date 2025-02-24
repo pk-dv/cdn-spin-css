@@ -656,6 +656,7 @@ body div {
     height: 14400px;
     background-size: contain;
     transition: margin-top 3s;
+    will-change: transform;
 }
 
 .spinner-col2 .img {
@@ -664,17 +665,17 @@ body div {
 
 .spinner-col1 .img {
     transform: translateY(-530px);
-    transition: transform 5s ease-out;
+    transition: transform 5s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .spinner-col2 .img {
      transform: translateY(-260px);
-    transition: transform 5s ease-out;
+    transition: transform 5s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .spinner-col3 .img {
     transform: translateY(-260px);
-    transition: transform 7s ease-out;
+    transition: transform 8s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .spinner-col1.spinned-1 .img {
