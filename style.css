@@ -631,6 +631,28 @@ body div {
     filter: blur(10px)
 }
 
+.logo_animation:after {
+    filter: blur(10px)
+}
+
+.spinner-col {
+    position: absolute;
+    width: 123px;
+    height: 395px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.spinner-col2 {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.spinner-col3 {
+    left: auto;
+    right: 0px;
+}
+
 .spinner-col .img {
     background-image: url("/images/img_1.png");
     background-repeat: repeat-y;
