@@ -631,10 +631,6 @@ body div {
     filter: blur(10px)
 }
 
-.logo_animation:after {
-    filter: blur(10px)
-}
-
 .spinner-col {
     position: absolute;
     width: 123px;
@@ -659,59 +655,62 @@ body div {
     width: 100%;
     height: 14400px;
     background-size: contain;
-    transition: transform 3s ease-out;
-}
-
-.spinner-col1 .img {
-    transform: translateY(-530px);
-    transition: transform 4s ease-out;
+    transition: margin-top 3s;
 }
 
 .spinner-col2 .img {
-    transform: translateY(-260px);
-    transition: transform 4s ease-out;
+    background-image: url("/images/img_2.png");
+}
+
+.spinner-col1 .img {
+    margin-top: -530px;
+    transition: margin-top 4s;
+}
+
+.spinner-col2 .img {
+    margin-top: -260px;
+    transition: margin-top 4s;
 }
 
 .spinner-col3 .img {
-    transform: translateY(-260px);
-    transition: transform 5s ease-out;
+    margin-top: -260px;
+    transition: margin-top 5s;
 }
 
-/* เมื่อถูกสปิน */
 .spinner-col1.spinned-1 .img {
-    transform: translateY(-4646px);
+    margin-top: -4646px;
 }
 
 .spinner-col1.spinned-2 .img {
-    transform: translateY(-8978px);
+    margin-top: -8978px;
 }
 
 .spinner-col1.spinned-3 .img {
-    transform: translateY(-12810px);
+    margin-top: -12810px;
 }
 
 .spinner-col2.spinned-1 .img {
-    transform: translateY(-4954px);
+    margin-top: -4954px;
 }
 
 .spinner-col2.spinned-2 .img {
-    transform: translateY(-8670px);
+    margin-top: -8670px;
 }
 
 .spinner-col2.spinned-3 .img {
-    transform: translateY(-12672px);
+    margin-top: -12672px;
 }
 
 .spinner-col3.spinned-1 .img {
-    transform: translateY(-4800px);
+    margin-top: -4800px;
 }
 
 .spinner-col3.spinned-2 .img {
-    transform: translateY(-8670px);
+    margin-top: -8670px;
 }
 
 .spinner-col3.spinned-3 .img {
-    transform: translateY(-12807px);
+    margin-top: -12807px;
 }
 
 .spin-error {
